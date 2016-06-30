@@ -55,6 +55,7 @@ header {
     padding: 48px 0 48px;
     li.song-item {
       display: inline-block;
+      margin-bottom: 40px;
       margin-right: 36px;
       width: 282px;
       &:nth-child(3n) {
@@ -74,6 +75,11 @@ header {
         img {
           display: block;
           margin: auto;
+        }
+        &:hover {
+          .item-card {
+            box-shadow: 0px 4px 8px rgba(black, 0.2);
+          }
         }
       }
       span.song-title,
