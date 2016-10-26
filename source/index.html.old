@@ -1,0 +1,166 @@
+---
+title: MediaMrkt
+---
+%header
+  %h1 Elige la musica que quieres que suene
+#main
+  #songs-container-wrapper 
+    #songs-container
+      %h2.section-title Elige la canción
+      %ul.songs-available
+        %li.song-item
+          %a{href: "#"}
+            .item-card
+              %img{src: "../images/album-cover.png", alt: "album cover"}
+            %span.song-title
+              American Idiot
+            %span.song-group
+              Green Day  
+        %li.song-item
+          %a{href: "#"}
+            .item-card
+              %img{src: "../images/album-cover.png", alt: "album cover"}
+            %span.song-title
+              American Idiot
+            %span.song-group
+              Green Day  
+        %li.song-item
+          %a{href: "#"}
+            .item-card
+              %img{src: "../images/album-cover.png", alt: "album cover"}
+            %span.song-title
+              American Idiot
+            %span.song-group
+              Green Day                
+        %li.song-item
+          %a{href: "#"}
+            .item-card
+              %img{src: "../images/album-cover.png", alt: "album cover"}
+            %span.song-title
+              American Idiot
+            %span.song-group
+              Green Day  
+        %li.song-item
+          %a{href: "#"}
+            .item-card
+              %img{src: "../images/album-cover.png", alt: "album cover"}
+            %span.song-title
+              American Idiot
+            %span.song-group
+              Green Day  
+        %li.song-item
+          %a{href: "#"}
+            .item-card
+              %img{src: "../images/album-cover.png", alt: "album cover"}
+            %span.song-title
+              American Idiot
+            %span.song-group
+              Green Day      
+        %li.song-item
+          %a{href: "#"}
+            .item-card
+              %img{src: "../images/album-cover.png", alt: "album cover"}
+            %span.song-title
+              American Idiot
+            %span.song-group
+              Green Day  
+        %li.song-item
+          %a{href: "#"}
+            .item-card
+              %img{src: "../images/album-cover.png", alt: "album cover"}
+            %span.song-title
+              American Idiot
+            %span.song-group
+              Green Day  
+        %li.song-item
+          %a{href: "#"}
+            .item-card
+              %img{src: "../images/album-cover.png", alt: "album cover"}
+            %span.song-title
+              American Idiot
+            %span.song-group
+              Green Day      
+    #carousel
+      %a{href: "#", class: "carousel-item active"}
+      %a{href: "#", class: "carousel-item"}
+      %a{href: "#", class: "carousel-item"}
+
+
+  #playlist
+    %h2.section-title Lista de reproducción
+    #player 
+      This is the player
+    #queue
+      %ul 
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30          
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30                         
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30          
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30                         
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30          
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30                         
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30          
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30                         
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30          
+        %li
+          Smells like ten spirit - nirvana
+          %span.song-duration
+            03:30                                             
