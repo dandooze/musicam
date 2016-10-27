@@ -1,17 +1,43 @@
 @charset "utf-8";
 @import "normalize";
 @import 'bourbon';
-@import 'grid-settings';
-@import 'neat';
+@import 'susy';
+
+$susy : (
+  columns: 12, 
+  global-box-sizing: border-box,
+  debug: (image: show)
+);
+
+
 
 body {
-  border: 1px solid red;
+  background: url("../images/background.png");
+  background-size: cover;
+  height: 100%;
+  box-sizing: border-box;
+  // margin: 0 10px;
 }
 
+.main-wrapper {
+  @include container (80em);
+}
+
+.library {
+  @include span(8 of 12);
+  // border: 1px solid aqua;
+}
+
+.player {
+  @include span(4 of 12);
+  @include omega;
+  // border: 1px solid green;
+}
+
+
 header {
-  @include outer-container;
   h1 {
-    @include span-columns(4);
+
   }
 }
 

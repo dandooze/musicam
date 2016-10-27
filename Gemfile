@@ -14,4 +14,4 @@ gem 'middleman-livereload'
 
 # Bourbon & Neat
 gem 'bourbon';
-gem 'neat';
+gem 'susy';
